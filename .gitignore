@@ -9,6 +9,7 @@
 .idea/**/shelf
 
 target
+.temp
 
 # AWS User-specific
 .idea/**/aws.xml
