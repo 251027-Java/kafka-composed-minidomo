@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: kafka-consumer
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      auto-offset-reset: earliest
+      group-id: message-consumers
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  output:
+    ansi:
+      enabled: always

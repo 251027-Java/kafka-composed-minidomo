@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="Kafka Consumer" path="$PROJECT_DIR$/consumer" />
+    <project name="Kafka Producer" path="$PROJECT_DIR$/producer" />
+    <option name="workspace" value="true" />
+  </component>
+</project>
